@@ -8,9 +8,9 @@ namespace Lab3App {
   public abstract class Collectable : Displayable
 {
     public CollectionBoard Board {get; set;}
-    public string description;
+    public string Description;
     public Collectable(string description){
-      this.description = description;
+      this.Description = description;
     }
 
     public virtual void AddMe(List<Collectable> collected)
