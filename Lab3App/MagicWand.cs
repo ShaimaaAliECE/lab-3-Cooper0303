@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3App
 {
-    class MagicWand : Tool
+    public class MagicWand : Tool
 {
     public MagicWand(string description) : base(description) { }
     public override void DoAction()

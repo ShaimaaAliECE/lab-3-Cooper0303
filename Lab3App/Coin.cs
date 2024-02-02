@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3App
 {
-    class Coin : Treasure {
+   public class Coin : Treasure {
 
     public int Value { get; protected set; }
 

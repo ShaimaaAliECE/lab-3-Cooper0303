@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3App
 {
-class Diamond : Treasure
+public class Diamond : Treasure
 {
     public Diamond(string description, int score) : base(description, score)
     {

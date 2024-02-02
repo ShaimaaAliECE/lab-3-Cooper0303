@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab3App
 {
-class Axe : Tool
+public class Axe : Tool
 {
     public Axe(string description) : base(description) { }
 
